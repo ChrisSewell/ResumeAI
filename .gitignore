@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+*.coverage
+coverage.xml
+.coverage.*
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+.venv/
+pythonenv*/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+.project
+.pydevproject
+.settings/
+*.code-workspace
+
+# Project specific
+.env
+output/
+
+# Logs directory - ignore contents but keep directory
+logs/*
+!logs/.gitkeep
+
+# Data directory - ignore everything except templates
+data/*
+!data/about_me_template.yaml
+!data/about_job_template.yaml
+
+# Generated files
+*.docx
+*.pdf
+*.log
+*.tmp
+*.bak
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+Desktop.ini
+$RECYCLE.BIN/
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Icon?

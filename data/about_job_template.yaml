@@ -1,0 +1,18 @@
+job_listing:
+  company: ""  # Company name
+  date_scraped: ""  # ISO format date: YYYY-MM-DDTHH:MM:SS.SSSSSS
+  details:
+    title: ""  # Job title
+    location: ""  # City, State/Province
+    type: ""  # e.g., Full Time, Part Time, Contract
+    department: ""  # Department or division
+    salary_range:
+      min: ""  # Format: $XXX.XXk
+      max: ""  # Format: $XXX.XXk
+    description: ""  # Full job description including:
+                    # - Overview
+                    # - Responsibilities
+                    # - Minimum Qualifications
+                    # - Preferred Qualifications
+                    # - Benefits
+                    # - Company Information 

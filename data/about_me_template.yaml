@@ -1,0 +1,89 @@
+personal_information:
+  name: ""  # First name
+  surname: ""  # Last name
+  date_of_birth: ""  # Format: DD/MM/YYYY
+  country: ""  # Country of residence
+  city: ""  # City of residence
+  address: ""  # Street address
+  zip_code: ""  # Postal/ZIP code
+  contact:
+    phone_prefix: ""  # e.g., +1
+    phone: ""  # Phone number without prefix
+    email: ""  # Professional email address
+  online_presence:
+    github: ""  # Full GitHub profile URL
+    linkedin: ""  # Full LinkedIn profile URL
+
+professional_experience:
+  - company: ""  # Company name
+    position: ""  # Job title
+    employment_period: ""  # Format: MM/YYYY - MM/YYYY or "Current"
+    location: ""  # City, State/Province
+    industry: ""  # Industry sector
+    responsibilities:  # List key achievements and responsibilities
+      - ""  # Start with action verbs, include metrics when possible
+    skills_acquired:  # List skills gained in this role
+      - ""  # Technical and soft skills relevant to the role
+
+education:  # Optional - Include academic history if applicable
+  - institution: ""  # Name of educational institution
+    degree: ""  # Degree type (e.g., Bachelor's, Master's)
+    field: ""  # Field of study
+    graduation_date: ""  # Year or MM/YYYY
+    location: ""  # City, State/Province
+    achievements: []  # Optional list of academic achievements
+
+certifications:
+  - name: ""  # Certification title
+    issuer: ""  # Issuing organization
+    date_obtained: ""  # Year or MM/YYYY
+    description: ""  # Brief description of certification and skills gained
+
+skills:
+  technical:  # Technical/hard skills
+    - ""
+  management:  # Leadership and management skills
+    - ""
+  soft:  # Interpersonal and soft skills
+    - ""
+
+languages:
+  - language: ""
+    proficiency: ""  # e.g., Fluent, Native, Intermediate, Basic
+
+interests:  # Professional interests and focus areas
+  - ""
+
+availability:
+  notice_period: ""  # e.g., "2 Weeks", "Immediate"
+
+compensation:
+  salary_range_usd: ""  # Format: "min - max" e.g., "80000 - 100000"
+
+demographics:  # Optional section
+  gender: ""
+  veteran_status: ""  # Yes/No
+  disability_status: ""  # Yes/No
+  ethnicity: ""
+
+work_authorization:
+  united_states:
+    authorized: true/false
+    requires_sponsorship: true/false
+  european_union:
+    authorized: true/false
+    requires_sponsorship: true/false
+  canada:
+    authorized: true/false
+    requires_sponsorship: true/false
+  united_kingdom:
+    authorized: true/false
+    requires_sponsorship: true/false
+
+work_preferences:
+  remote_work: true/false
+  in_person_work: true/false
+  relocation: true/false
+  assessments: true/false
+  drug_testing: true/false
+  background_checks: true/false 
