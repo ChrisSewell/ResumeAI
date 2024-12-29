@@ -1,8 +1,6 @@
 personal_information:
   name: ""  # First name
   surname: ""  # Last name
-  date_of_birth: ""  # Format: DD/MM/YYYY
-  country: ""  # Country of residence
   city: ""  # City of residence
   address: ""  # Street address
   zip_code: ""  # Postal/ZIP code
@@ -53,37 +51,3 @@ languages:
 
 interests:  # Professional interests and focus areas
   - ""
-
-availability:
-  notice_period: ""  # e.g., "2 Weeks", "Immediate"
-
-compensation:
-  salary_range_usd: ""  # Format: "min - max" e.g., "80000 - 100000"
-
-demographics:  # Optional section
-  gender: ""
-  veteran_status: ""  # Yes/No
-  disability_status: ""  # Yes/No
-  ethnicity: ""
-
-work_authorization:
-  united_states:
-    authorized: true/false
-    requires_sponsorship: true/false
-  european_union:
-    authorized: true/false
-    requires_sponsorship: true/false
-  canada:
-    authorized: true/false
-    requires_sponsorship: true/false
-  united_kingdom:
-    authorized: true/false
-    requires_sponsorship: true/false
-
-work_preferences:
-  remote_work: true/false
-  in_person_work: true/false
-  relocation: true/false
-  assessments: true/false
-  drug_testing: true/false
-  background_checks: true/false 
